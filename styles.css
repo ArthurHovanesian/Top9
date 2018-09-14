@@ -1,0 +1,42 @@
+#movies { 
+  width: 90%;
+  margin-left: 8%;
+  margin-right: auto;
+}
+
+#query {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+img { 
+  width: 10%;
+  cursor: pointer;
+}
+select, button, input { 
+  width: 100px;
+}
+
+body{
+  background-color: black;
+  overflow-x: hidden;
+  background-image:url("theater.jpg");
+  background-size: 100% 1400px;
+  background-repeat: no-repeat;
+}
+#iframe{
+  width: 1600px;
+  height: 680px;
+  transform: scale(.7);
+  transform-origin: 15% 0%;
+  display: block;
+  overflow-y: scroll;
+  position: fixed;
+  top: 33%;
+  bottom: 5%;
+  opacity: .95;
+}
+
+
+  
